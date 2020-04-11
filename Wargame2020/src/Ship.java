@@ -1,6 +1,6 @@
 /*This class holds the values of a ship on the Grid.
 
- * Specifically it keeps track of the length, coordinate
+ * keeps track of the length, coordinate
 
  * of initial spot, and direction of the ship*/
 
