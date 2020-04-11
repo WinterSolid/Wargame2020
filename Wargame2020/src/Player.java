@@ -3,4 +3,6 @@
 
 public class Player {
 
-//Lengths of all ships
+    //Lengths of all ships
+
+    public static final int[] SHIP_LENGTHS = {2, 3, 3, 4, 5};
