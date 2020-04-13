@@ -29,13 +29,21 @@ public class Ship
 
 
 
-/*This is the Ship constructor, it will create a ship of a
+    /**
 
- * given length with a default location of (-1, -1) --which
+     * This is the Ship constructor, it will create a ship of a
 
- * will not be on the grid-- and an unset
+     * given length with a default location of (-1, -1) --which
 
- * direction @param length = length of ship*/
+     * will not be on the grid-- and an unset
+
+     * direction
+
+     *
+
+     * @param length = length of ship
+
+     */
 
     public Ship(int length)
 
