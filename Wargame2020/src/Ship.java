@@ -36,3 +36,37 @@ public class Ship
  * will not be on the grid-- and an unset
 
  * direction @param length = length of ship*/
+
+    public Ship(int length)
+
+    {
+
+        this.length = length;
+
+        col = -1;
+
+        row = -1;
+
+        direction = -1;
+
+    }
+
+
+
+    public boolean isLocationSet()
+
+    {
+
+        return col != -1 && row != -1;
+
+    }
+
+
+
+    public void setLocation(int row, int col) {
+
+        this.row = row;
+
+        this.col = col;
+
+    }
