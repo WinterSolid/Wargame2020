@@ -35,6 +35,7 @@ public class Ship
 
      * given length with a default location of (-1, -1) --which
 
+<<<<<<< HEAD
      * will not be on the grid-- and an unset
 
      * direction
@@ -78,3 +79,8 @@ public class Ship
         this.col = col;
 
     }
+=======
+ * direction @param length = length of ship*/
+
+
+>>>>>>> 2af41a09ee9a6d5a45a357ea9dcf363d1f0cf9ce
