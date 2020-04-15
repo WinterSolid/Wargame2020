@@ -1,6 +1,7 @@
 /**
 
- * Class made for obtaining random values for Battleship game
+ * Class obtains random values for Battleship game
+ * Author: Iram
 
  */
 
@@ -19,7 +20,21 @@ public class Randomizer{
     public Randomizer(){
 
     }
+    public static Random getInstance(){
 
+        if(theInstance == null)
 
+            theInstance = new Random();
+
+        return theInstance;
 
     }
+
+    public static int nextInt(){
+
+        return Randomizer.getInstance().nextInt();
+
+    }
+
+
+}
