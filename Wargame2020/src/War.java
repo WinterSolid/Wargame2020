@@ -3,6 +3,7 @@
 /**
 
  * This is a simple class used to run the game
+ * author: Iram
 
  */
 
