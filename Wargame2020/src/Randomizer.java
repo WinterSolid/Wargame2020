@@ -53,7 +53,6 @@ public class Randomizer{
     }
 
 
-
     /**
 
      * Return a number between min and max, inclusive.
@@ -73,7 +72,6 @@ public class Randomizer{
     }
 
 
-
     /**
 
      * Return a random double between 0 and 1.
@@ -87,7 +85,6 @@ public class Randomizer{
         return Randomizer.getInstance().nextDouble();
 
     }
-
 
 
     /**
@@ -107,8 +104,6 @@ public class Randomizer{
         return min + (max - min) * Randomizer.nextDouble();
 
     }
-
-
 
 }
 

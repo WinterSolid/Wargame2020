@@ -71,4 +71,70 @@ public class Ship {
 
     }
 
+    public int getRow()
+
+    {
+
+        return row;
+
+    }
+
+
+
+    public int getCol()
+
+    {
+
+        return col;
+
+    }
+
+
+
+    public int getLength()
+
+    {
+
+        return length;
+
+    }
+
+
+
+    public int getDirection()
+
+    {
+
+        return direction;
+
+    }
+
+
+
+    private String directionToString() {
+
+        if(direction == 0)
+
+            return "Horizontal";
+
+        else if(direction == 1)
+
+            return "Vertical";
+
+        else
+
+            return "Direction invalid";
+
+    }
+
+
+
+    public String toString()
+
+    {
+
+        return "Ship with length " + length;
+
+    }
+
 }
