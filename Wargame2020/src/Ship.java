@@ -4,9 +4,7 @@
 
  * of initial spot, and direction of the ship*/
 
-public class Ship
-
-{
+public class Ship {
 
     private int row;
 
@@ -15,7 +13,6 @@ public class Ship
     private int length;
 
     private int direction;
-
 
 
     //Direction constants
@@ -27,26 +24,19 @@ public class Ship
     public static final int VERTICAL = 1;
 
 
-
     /**
-
      * This is the Ship constructor, it will create a ship of a
-
+     * <p>
      * given length with a default location of (-1, -1) --which
-
+     * <p>
      * will not be on the grid-- and an unset
-
+     * <p>
      * direction
-
      *
-
      * @param length = length of ship
-
      */
 
-    public Ship(int length)
-
-    {
+    public Ship(int length) {
 
         this.length = length;
 
@@ -59,15 +49,11 @@ public class Ship
     }
 
 
-
-    public boolean isLocationSet()
-
-    {
+    public boolean isLocationSet() {
 
         return col != -1 && row != -1;
 
     }
-
 
 
     public void setLocation(int row, int col) {
@@ -79,11 +65,10 @@ public class Ship
     }
 
 
-
-    public void setDirection(int direction)
-
-    {
+    public void setDirection(int direction) {
 
         this.direction = direction;
 
     }
+
+}
