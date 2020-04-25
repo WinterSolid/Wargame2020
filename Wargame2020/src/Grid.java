@@ -2,7 +2,7 @@
 
  /* Defines a few methods for placing ships for both the user and the computer
 
- author zakee t*/
+ author Zakee T*/
 
 public class Grid {
 

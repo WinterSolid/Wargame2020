@@ -1,7 +1,7 @@
 /**
 
  * Class obtains random values for Battleship game
- * Author: Iram
+ * Author by Iram J
 
  */
 
