@@ -3,7 +3,7 @@
 Comp 271 Peer based project
 # War Game 2020 Instructions
 1. Run the program. The initial prompt will give you details about the board and ships.
-![stepOne](https://github.com/WinterSolid/comp271-Wargame2020/blob/master/projectinstrucpics/1.png)
+
 
 2. In this game, you and the computer will each have 5 boats. One of length 2, two of length 3, one of length 4, and one of length 5. You and the computer will each place your boats on a 10x10 board.
 
